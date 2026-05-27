@@ -13,7 +13,7 @@ private:
     bool ligado;
 
 public:
-    TermostatoDigital() {}
+    TermostatoDigital();
 
     void atualizarFirmware() override;
     void desligar() override;

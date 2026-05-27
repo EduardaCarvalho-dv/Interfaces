@@ -12,7 +12,7 @@ private:
     bool trancada;
 
 public:
-    FechaduraInteligente() {}
+    FechaduraInteligente();
 
     void ligar() override;
     void desligar() override;

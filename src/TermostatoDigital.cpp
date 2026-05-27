@@ -46,3 +46,26 @@ void TermostatoDigital::monitoraTemperatura() {
 
         
 }
+
+void TermostatoDigital::atualizarFirmware() {
+
+    if (ligado) {
+
+        cout << "Erro: O termostato esta ligado" << endl;
+
+    } else {
+
+        cout << "Atualizando firmware do termostato" << endl;
+
+        int progresso = 0;
+
+        while (progresso <= 100) {
+
+            cout << "Atualizacao: " << progresso << "%" << endl;
+
+            progresso += 25;
+        }
+
+        cout << "Firmware atualizado" << endl;
+    }
+}

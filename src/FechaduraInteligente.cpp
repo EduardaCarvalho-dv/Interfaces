@@ -46,3 +46,16 @@ void FechaduraInteligente::atualizarFirmware() {
         cout << "Firmware atualizado" << endl;
     }
 }
+
+void FechaduraInteligente::gerarRelatorio() {
+
+    cout << "Relatorio da fechadura" << endl;
+
+    if (trancada) {
+
+        cout << "Status: Travada" << endl;
+    } else {
+
+        cout << "Status: Destravada" << endl;
+    }
+}

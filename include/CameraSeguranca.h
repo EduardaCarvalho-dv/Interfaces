@@ -12,7 +12,7 @@ private:
     bool ativada;
 
 public:
-    CameraSeguranca() {}
+    CameraSeguranca();
 
     void ligar() override;
     void desligar() override;

@@ -11,7 +11,7 @@ private:
     bool ligada;
 
 public:
-    LampadaInteligente() {}
+    LampadaInteligente();
 
     void ligar() override;
     void desligar() override;
