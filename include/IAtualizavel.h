@@ -7,7 +7,5 @@ class IAtualizavel {
 public:
     virtual void atualizarFirmware() = 0;
 
-    virtual ~IAtualizavel() {
-        cout << "Destruindo atualizavel..." << endl;
-    }
+    virtual ~IAtualizavel() {}
 };

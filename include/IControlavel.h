@@ -8,8 +8,6 @@ public:
     virtual void ligar() = 0;
     virtual void desligar() = 0;
 
-    virtual ~IControlavel() {
-        cout << "Destruindo controlavel..." << endl;
-    }
+    virtual ~IControlavel() {}
 
 };

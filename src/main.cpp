@@ -22,14 +22,14 @@ int main () {
         cout << endl;
         cout << "Interface Dispositivos Inteligentes: " << endl;
 
-        cout << "1 - Lampada Inteligente" << endl;
+        cout << "\n1 - Lampada Inteligente" << endl;
         cout << "2 - Camera de Seguranca" << endl;
         cout << "3 - Fechadura Inteligente" << endl;
         cout << "4 - Termostato Digital" << endl;
         cout << "5 - Robo Aspirador" << endl;
         cout << "0 - Sair" << endl;
 
-        cout << "\nOpcao: " << endl;
+        cout << "\nOpcao: ";
         cin >> opcao;
 
         switch (opcao) {
@@ -38,13 +38,14 @@ int main () {
 
                 int escolha;
 
+                cout << endl;
                 cout << "Lampada Inteligente: " << endl;
 
-                cout << "1 - Ligar" << endl;
+                cout << "\n1 - Ligar" << endl;
                 cout << "2 - Desligar" << endl;
                 cout << "3 - Gerar Relatorio" << endl;
 
-                cout << "Opcao: ";
+                cout << "\nOpcao: ";
                 cin >> escolha;
 
                 switch (escolha) {
@@ -62,7 +63,7 @@ int main () {
                         break;
 
                     default:
-                        cout << "Opcao invalida" << endl;
+                        cout << "\nOpcao invalida" << endl;
                 }
 
                 break;
@@ -75,12 +76,12 @@ int main () {
                 cout << endl;
                 cout << "Camera de Seguranca: " << endl;
 
-                cout << "1 - Ligar" << endl;
+                cout << "\n1 - Ligar" << endl;
                 cout << "2 - Desligar" << endl;
                 cout << "3 - Gerar Relatorio" << endl;
                 cout << "4 - Atualizar Firmware" << endl;
 
-                cout << "Opcao: ";
+                cout << "\nOpcao: ";
                 cin >> escolha;
 
                 switch (escolha) {
@@ -102,7 +103,7 @@ int main () {
                         break;
 
                     default:
-                        cout << "Opcao invalida" << endl;
+                        cout << "\nOpcao invalida" << endl;
                 }
 
                 break;
@@ -115,12 +116,12 @@ int main () {
                 cout << endl;
                 cout << "Fechadura inteligente: " << endl;
 
-                cout << "1 - Ligar" << endl;
+                cout << "\n1 - Ligar" << endl;
                 cout << "2 - Desligar" << endl;
                 cout << "3 - Gerar Relatorio" << endl;
                 cout << "4 - Atualizar Firmware" << endl;
 
-                cout << "Opcao: ";
+                cout << "\nOpcao: ";
                 cin >> escolha;
 
                 switch (escolha) {
@@ -142,7 +143,7 @@ int main () {
                         break;
 
                     default:
-                        cout << "Opcao invalida" << endl;
+                        cout << "\nOpcao invalida" << endl;
                 }
 
                 break;
@@ -155,13 +156,13 @@ int main () {
                 cout << endl;
                 cout << "Termostato Digital: " << endl;
 
-                cout << "1 - Ligar" << endl;
+                cout << "\n1 - Ligar" << endl;
                 cout << "2 - Desligar" << endl;
                 cout << "3 - Gerar Relatorio" << endl;
                 cout << "4 - Atualizar Firmware" << endl;
                 cout << "5 - Monitorar Temperatura" << endl;
 
-                cout << "Opcao: ";
+                cout << "\nOpcao: ";
                 cin >> escolha;
 
                 switch (escolha) {
@@ -187,7 +188,7 @@ int main () {
                         break;
 
                     default:
-                        cout << "Opcao invalida" << endl;
+                        cout << "\nOpcao invalida" << endl;
                 }
 
                 break;
@@ -200,12 +201,12 @@ int main () {
                 cout << endl;
                 cout << "Robo Aspirador: " << endl;
 
-                cout << "1 - Ligar" << endl;
+                cout << "\n1 - Ligar" << endl;
                 cout << "2 - Desligar" << endl;
                 cout << "3 - Atualizar Firmware" << endl;
                 cout << "4 - Limpar Casa" << endl;
 
-                cout << "Opcao: ";
+                cout << "\nOpcao: ";
                 cin >> escolha;
 
                 switch (escolha) {
@@ -227,18 +228,18 @@ int main () {
                         break;
 
                     default:
-                        cout << "Opcao invalida" << endl;
+                        cout << "\nOpcao invalida" << endl;
                 }
 
                 break;
             }
 
             case 0:
-                cout << "Encerrando" << endl;
+                cout << "\nEncerrando" << endl;
                 return 0;
 
             default:
-                cout << "Opcao invalida" << endl;
+                cout << "\nOpcao invalida" << endl;
         }
     }
 

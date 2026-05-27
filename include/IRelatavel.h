@@ -7,7 +7,5 @@ class IRelatavel {
 public:
     virtual void gerarRelatorio() = 0;
 
-    virtual ~IRelatavel() {
-        cout << "Destruindo relatavel..." << endl;
-    }
+    virtual ~IRelatavel() {}
 };
