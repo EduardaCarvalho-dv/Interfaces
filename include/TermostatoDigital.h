@@ -3,7 +3,6 @@
 #include <iostream>
 using namespace std;
 
-#include "IControlavel.h"
 #include "IAtualizavel.h"
 
 class TermostatoDigital : public IAtualizavel {
